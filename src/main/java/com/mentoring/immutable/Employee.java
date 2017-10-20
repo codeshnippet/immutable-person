@@ -7,8 +7,7 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode
 class Person implements Serializable {
-    public String firstName;
-    public String lastName;
+    public String name;
     private double height;
     private Date birthDate;
 
