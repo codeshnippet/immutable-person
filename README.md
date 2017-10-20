@@ -19,6 +19,8 @@ Person class has to contain following fields:
 - name
 - height (in inches)
 - birth date
+Person should have following methods:
+- change name to upper case
 
 After creation of a Person object, caller code should be able to read all the values of fields above.
 Caller shouldn't be able to modify the Person object after instantiation.
