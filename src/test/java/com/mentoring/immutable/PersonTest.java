@@ -6,13 +6,13 @@ import org.apache.commons.lang3.SerializationUtils;
 import org.junit.Test;
 
 
-public class EmployeeTest {
+public class PersonTest {
 
     @Test
     public void testEmployeeIsImmutable(){
         // Given
-        Employee one = new Employee();
-        Employee two = SerializationUtils.clone(one);
+        Person one = new Person();
+        Person two = SerializationUtils.clone(one);
 
         // When
         // Some code modifying object two.
