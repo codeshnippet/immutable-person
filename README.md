@@ -33,8 +33,9 @@ When the task is finished - provide changes for the review. Reviewer should try 
 == Additional reading ==
 
 Topics involved:
+- immutability
 - 'final' keyword
-- acess modifiers
+- access modifiers
 - inheritance
 - object references
 - marker interfaces (Serializable)
