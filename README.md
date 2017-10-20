@@ -19,6 +19,7 @@ Person class has to contain following fields:
 - name
 - height (in inches)
 - birth date
+
 Person should have following methods:
 - change name to upper case
 
