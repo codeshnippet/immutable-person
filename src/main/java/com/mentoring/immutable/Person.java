@@ -7,6 +7,7 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode
 class Person implements Serializable {
+
     public String name;
     private double height;
     private Date birthDate;
@@ -30,4 +31,5 @@ class Person implements Serializable {
     public void capitalizeName(){
         this.name = this.name.toUpperCase();
     }
+
 }

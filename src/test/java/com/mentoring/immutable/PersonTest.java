@@ -15,7 +15,13 @@ public class PersonTest {
         Person two = SerializationUtils.clone(one);
 
         // When
-        // Some code modifying object two.
+        // This block is for reviewer to test Person object immutability.
+        // Whatever reviewer writes in this block should not break the test.
+        //=======================================================================================
+        //
+        // example: two.setHeight(15);
+        //
+        //========================================================================================
 
         // Then
         assertEquals(one, two);
